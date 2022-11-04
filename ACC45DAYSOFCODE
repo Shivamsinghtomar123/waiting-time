@@ -1,0 +1,13 @@
+#include <iostream>
+using namespace std;
+
+int main() {
+	int t,k,x,y;
+	cin>>t;
+	for(int i=1;i<=t;i++){
+	    cin>>k>>x;
+	    y=(k*7)-x;
+	    cout<<y<<endl;
+	}
+	return 0;
+}
